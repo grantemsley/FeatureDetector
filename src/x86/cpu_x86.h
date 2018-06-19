@@ -82,8 +82,6 @@ public:
     static std::string get_vendor_string();
 
 private:
-    static void print(const char* label, bool yes);
-
     static bool detect_OS_x64();
     static bool detect_OS_AVX();
     static bool detect_OS_AVX512();

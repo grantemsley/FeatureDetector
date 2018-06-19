@@ -14,13 +14,5 @@ using std::endl;
 using namespace FeatureDetector;
 
 int main(){
-
-    cout << "CPU Vendor String: " << cpu_x86::get_vendor_string() << endl;
-    cout << endl;
-
     cpu_x86::print_host();
-
-#if _WIN32
-    system("pause");
-#endif
 }
